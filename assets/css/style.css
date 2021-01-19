@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "polo";
+  src: url("../fonts/polo.ttf");
+}
+
+* {
+  font-family: polo;
+}
+body {
+  /* background-color: #AC42A7;
+    background-image: linear-gradient(#571e54,#AC42A7); */
+    margin: 237px;
+
+    background-image: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(184,83,182,1) 35%, rgba(84,7,83,1) 100%);
+    background-repeat: no-repeat;
+}
+
+.img-soon{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.h2{
+    font-size: 700;
+}
+
+/* @media only screen and (min-width: 768px) {
+    
+  } */
